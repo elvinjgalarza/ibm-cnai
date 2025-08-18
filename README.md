@@ -1,4 +1,4 @@
-# Deploy a Cloud Native Application that uses AI
+# Deploy a Cloud Native Application that uses Generative AI
 
 This is a simple auto insurance underwriting application. The end user will fill out the form and upload an image of the front of a driver's license. The application will use this information to generate approve or reject the end user.
 
