@@ -354,7 +354,7 @@ volumes:
   - name: uploads
     mountPath: /app/uploads
 ```
-![alt text](image-14.png)
+![alt text](images/image-14.png)
 
 Click "Save", then "Reload".
 
