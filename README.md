@@ -163,12 +163,12 @@ You can use OpenShift ConfigMaps to manually store secrets in your cluster's pro
 
 2. In the OCP console, make sure you're in the "Administrator" view.
 
-3. Click ☰ and go to "Workloads", then "Secrets". ![alt text](image-16.png)
+3. Click ☰ and go to "Workloads", then "Secrets". ![alt text](images/image-16.png)
 
 4. Make sure you are in the `cnai` project, or the project you intend to deploy the application in. (again, Secrets are project-scoped).
 
 5. Click "Create", and then "Key/value secret".
-![alt text](image-9.png)
+![alt text](images/image-9.png)
 
 6. Give the ConfigMap a name like "watsonx-secret" and give the key(s) their respective names that the application will use at runtime and the values associated with them. For example with watsonx, recall the environment variables at the beginning of this secion.
 
@@ -192,18 +192,18 @@ Note: This will be used later to configure Secrets Manager for your ROKS cluster
 
 4. Click on "Add +" to create the secrets you want to use with your Secrets Manager instance. 
 For watsonx secrets you can use 
-![alt text](image-10.png)
+![alt text](images/image-10.png)
 
 5. For watsonx secrets, you can use "Other secret type" to store arbitrary values.
-![alt text](image-11.png)
+![alt text](images/image-11.png)
 
 6. For ICD secrets, you can use "Key-value" to store the connection string in JSON format.
-![alt text](image-12.png)
+![alt text](images/image-12.png)
 
 Or alternatively, you can create a secret using service credentials from the databases in your [IBM Cloud Database resources](https://cloud.ibm.com/databases-overview/resources).
 
 Navigate to "Service credentials" then "Create credential +", select the Secrets Manager instance you're using, then click "Create".
-![alt text](image-13.png)
+![alt text](images/image-13.png)
 
 Note: Make sure all secrets have been added to your Secrets Manager instance before moving on.
 
