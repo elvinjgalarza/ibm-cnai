@@ -309,6 +309,11 @@ spec:
       remoteRef:
         key: <SECRET-KEY-UNIQUE-ID>
 ```
+
+Apply this to your cluster using:
+
+`oc apply -f <NAME-OF-FILE>`
+
 You can obtain the unique ID for each secret in your Secrets Manager by clicking on the secret and copying the ID in the "General" tab.
 
 11. Once all the secrets for your IBM Cloud services are created, you can move on to Section 6.
