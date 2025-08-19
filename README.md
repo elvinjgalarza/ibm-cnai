@@ -316,7 +316,7 @@ Apply this to your cluster using:
 
 You can obtain the unique ID for each secret in your Secrets Manager by clicking on the secret and copying the ID in the "General" tab.
 
-11. Once all the secrets for your IBM Cloud services are created, you can move on to Section 6.
+11. Once all the secrets for your IBM Cloud services are created, you can move on to Section 6. You can check to see if your secrets are in your ROKS cluster by invoking: `oc get secrets -n cnai` or by following Step 3 from Section 5.2.
 
 ## 6. Deploying the application to the ROKS cluster
 
