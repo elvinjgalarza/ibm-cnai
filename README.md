@@ -125,8 +125,8 @@ REDIS_URL=<YOUR-ICDREDIS-URL>
 REDIS_PORT=<YOUR-ICDREDIS-PORT>
 
 
-MONGODB_BINDING= #mongodb-credentials.json (if running locally)
-POSTGRESQL_BINDING= #postgresql-credentials.json (if running locally)
+MONGODB_BINDING= <YOUR-ICDMONGODB-BINDING> # or it's mongodb-credentials.json (if running locally)
+POSTGRESQL_BINDING= <YOUR-ICDPOSTGRESQL-BINDING> # or it's postgresql-credentials.json (if running locally)
 ```
 
 ### 5.1 Using service bindings
